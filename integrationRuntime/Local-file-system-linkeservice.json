@@ -1,0 +1,12 @@
+{
+	"name": "Local-file-system-linkeservice",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/ea71a9be-4c5d-4745-87d6-618890323294/resourcegroups/AzureResource_ADF/providers/Microsoft.DataFactory/factories/DevelopmentADF/integrationruntimes/Local-File-system-linkedService",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

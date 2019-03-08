@@ -1,0 +1,15 @@
+{
+	"name": "AzureStorageLinkService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://testingadls.azuredatalakestore.net/webhdfs/v1",
+			"servicePrincipalId": "977d87de-4a96-4940-ad4d-97eeacada5e1",
+			"tenant": "982b5f40-3124-4052-b13a-8130a2848ec6",
+			"subscriptionId": "ea71a9be-4c5d-4745-87d6-618890323294",
+			"resourceGroupName": "AzureResource_ADF",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNUQUdJTkdBREZfYmE4MDc2MTAtMTA5Yy00MGIzLWFkNjYtMTYyNDM3MGM5MGM4Ig0KfQ=="
+		}
+	}
+}
